@@ -1,0 +1,146 @@
+{
+	"name":"June",
+	"thumbnail":"june.png",
+	"screenshot":"june.png",
+    "tags": {
+    "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "independent", "art", "portfolio", "flexible", "studio", "open", "simple", "designer", "serif", "design", "magazine", "creative"],
+    "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "independiente", "arte", "portafolio", "flexible", "estudio", "abierto", "simple", "diseñador", "serif", "diseño", "revista", "creativo"],
+    "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "independente", "arte", "portfolio", "flexível", "estúdio", "aberto", "simples", "designer", "serif", "design", "revista", "criativo"]
+    },
+	"colorSwatches":
+    {
+        "Swatch 1": {
+            "color1":"#ffffff",
+            "color2":"#C1E1CD",
+            "color3":"#000000",
+            "color4":"#404040",
+            "color5":"#8b8b8b",
+            "color6":"#8b8b8b",
+            "color7":"#ffffff"
+        },
+        "Swatch 2": {
+            "color1":"#ffffff",
+            "color2":"#E6E7E6",
+            "color3":"#D8E8CB",
+            "color4":"#444546",
+            "color5":"#9E9597",
+            "color6":"#8C8C8C",
+            "color7":"#ffffff"
+        },
+        "Swatch 3": {
+            "color1":"#f3f3f3",
+            "color2":"#dbd9d9",
+            "color3":"#d883a8",
+            "color4":"#5c5757",
+            "color5":"#aa9c8d",
+            "color6":"#545454",
+            "color7":"#f3f3f3"
+        },
+        "Swatch 4": {
+            "color1":"#ffffff",
+            "color2":"#eff2f6",
+            "color3":"#7b7e7b",
+            "color4":"#444546",
+            "color5":"#9e9597",
+            "color6":"#8c8c8c",
+            "color7":"#ffffff"
+        },
+        "Swatch 5": {
+            "color1":"#ffffff",
+            "color2":"#e5e4fa",
+            "color3":"#000000",
+            "color4":"#404040",
+            "color5":"#8b8b8b",
+            "color6":"#8b8b8b",
+            "color7":"#ffffff"
+        }
+    },
+    "fontSwatch": {
+       "title": "Old Standard TT",
+        "font1": {
+            "font-family": "Old Standard TT",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "42px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font2": {
+            "font-family": "Old Standard TT",
+            "font-size": "30px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "Old Standard TT",
+            "font-size": "26px",
+            "font-weight": "inherit",
+            "line-height": "34px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "Old Standard TT",
+            "font-size": "22px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "Helvetica",
+            "font-size": "15px",
+            "font-weight": "400",
+            "line-height": "26px",
+            "color": "@color-swatch5",
+            "letter-spacing": "inherit"
+        },
+        "font6": {
+            "font-family": "Old Standard TT",
+            "font-size": "16px",
+            "font-weight": "400",
+            "line-height": "28px",
+            "color": "@color-swatch6",
+            "color-hover": "@color-swatch3",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch1",
+            "background-color-hover": "@color-swatch1"
+        },
+        "font7": {
+            "font-family": "Old Standard TT",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "26px",
+            "color": "@color-swatch1",
+            "letter-spacing": "inherit",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "@color-swatch6"
+        },
+        "font8": {
+            "font-family": "Old Standard TT",
+            "font-size": "36px",
+            "font-weight": "400",
+            "line-height": "42px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font9": {
+            "font-family": "Old Standard TT",
+            "font-size": "18px",
+            "font-weight": "400",
+            "line-height": "34px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        },
+        "font10": {
+            "font-family": "Old Standard TT",
+            "font-size": "24px",
+            "font-weight": "600",
+            "line-height": "34px",
+            "color": "@color-swatch3",
+            "letter-spacing": "inherit"
+        }
+    }
+}
