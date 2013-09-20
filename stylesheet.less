@@ -183,7 +183,7 @@ header {
   line-height:@font-swatch10-line-height;
   letter-spacing: @font-swatch10-letter-spacing;
   font-size: @font-swatch10-font-size;
-  border: 4px solid @color-swatch3;
+  border: 3px solid @color-swatch3;
   padding: 10px 8px 8px;
 }
 
@@ -1561,6 +1561,13 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
         margin: 0 auto;
     }
 
+    .widget.companyname a {
+        font-size: bkscale(@font-swatch10-font-size,0.8);
+        line-height: bkscale(@font-swatch10-line-height,0.8);
+        font-weight: 600;
+        border: 2px solid @color-swatch3;
+    }
+
     /* NAV */
 
 
@@ -1699,6 +1706,13 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
         padding: 0.5em 1.7em 0.4em 0.5em;
     }
 
+     /* GALLERY */
+
+    .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
+      font-size:bkscale(@font-swatch5-font-size,0.9);
+      line-height:bkscale(@font-swatch5-line-height,0.9);
+    }
+
     /* SLIDESHOW */
 
     .widget.responsiveslideshow .slideshow-image-list, 
@@ -1712,7 +1726,19 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
    IPHONE WIDTH
    =============================== */
 
-@media only screen and (max-width: 480px) { 
+@media only screen and (max-width: 480px) {
+
+
+    .widget.companyname {
+      max-width: 245px;
+    }
+
+    .widget.companyname a {
+        font-size: bkscale(@font-swatch10-font-size,0.7);
+        line-height: bkscale(@font-swatch10-line-height,0.7);
+        border: 2px solid @color-swatch3;
+        font-weight: 600;
+    }
 
     footer {
         padding: 2.5em 0 0;
@@ -1751,7 +1777,12 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
     .widget.feature h3 {
         font-size: bkscale(@font-swatch9-font-size,0.7);
         line-height: bkscale(@font-swatch9-line-height,0.72);
-        width: 65%;
+        width: 62%;
+    }
+
+    .widget.feature .feature-btn {
+      width: 100%;
+      max-width: 100%;
     }
 
     .widget.feature .feature-btn button {
@@ -1835,7 +1866,11 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
       height: 200px;
   }
 
-    /* GALLERY */
+     /* GALLERY */
+
+    .widget.gallery li span.inner .title, .widget.gallery li span.inner .description {
+      max-height: 150px;
+    }
 
     .widget.gallery ul.gallery-widget li
     {

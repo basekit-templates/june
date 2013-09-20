@@ -137,7 +137,7 @@
         "font10": {
             "font-family": "Old Standard TT",
             "font-size": "24px",
-            "font-weight": "600",
+            "font-weight": "400",
             "line-height": "34px",
             "color": "darken(@color-swatch4,20%)",
             "letter-spacing": "inherit"
