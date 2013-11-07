@@ -1,4 +1,5 @@
 @import templatecommon('/paypal.less');
+@import templatecommon('/dropbox.less');
 
 body {
     background-color: @color-swatch1;
@@ -603,6 +604,21 @@ footer h4 {
     font-size: @font-swatch5-font-size;
     line-height: @font-swatch5-line-height;
     color: @font-swatch5-color;
+}
+
+/* ===============================
+   DROPBOX BUTTON
+   =============================== */
+
+
+.widget.dropbox .b-wrap .btn {
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.widget.dropbox .b-wrap .btn:hover {
+  background-color: @font-swatch7-background-color-hover;
+  color: @font-swatch7-color;
 }
 
 /* ===============================
