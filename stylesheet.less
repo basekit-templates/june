@@ -283,7 +283,7 @@ footer h4 {
 }
 
 .widget.extendednavigation a.pull {
-    display: none
+    top:-9px;
 }
 
 .widget.extendednavigation ul {
@@ -1553,6 +1553,7 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
    =============================== */
 .widget.responsiveslideshow .slideshow-image-list {
     height: 500px;
+    min-height:initial;
 }
 
 .widget.responsiveslideshow .slideshow-widget {
@@ -1706,33 +1707,6 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
         float: none;
     }
 
-     /* NAV ICON */
-
-  .widget .extendednavigation a.pull {
-    display: block;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    margin-right: 5%;
-    border: 0;
-  }
-
-    .widget .extendednavigation a.pull:after {
-    content:"";
-    background: image('/images/nav-icon.png') no-repeat;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    left: 100%;
-    top: 0;
-    box-shadow: none;
-  }
-
-  /* NAV */
-
-  
  .widget .extendednavigation ul {
     width: 100%;
     display: none;
@@ -1851,6 +1825,7 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
     .widget.responsiveslideshow .slideshow-image-list, 
     .widget.responsiveslideshow .slideshow-widget {
         height:400px;
+        min-height:initial;
     }
 
 }
@@ -2006,8 +1981,10 @@ footer .widget.profile .twitter span, .widget.profile .twitter span a {
     display:none;
   }
 
-  .widget.responsiveslideshow .slideshow-image-list, .widget.responsiveslideshow .slideshow-widget {
+  .widget.responsiveslideshow .slideshow-image-list, 
+  .widget.responsiveslideshow .slideshow-widget {
       height: 200px;
+      min-height:initial;
   }
 
      /* GALLERY */
