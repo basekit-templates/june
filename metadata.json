@@ -2,6 +2,7 @@
 	"name":"June",
 	"thumbnail":"june.png",
 	"screenshot":"june.png",
+	"templateType":"standard",
     "tags": {
     "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "independent", "art", "portfolio", "flexible", "studio", "open", "simple", "designer", "serif", "design", "magazine", "creative"],
     "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "independiente", "arte", "portafolio", "flexible", "estudio", "abierto", "simple", "diseñador", "serif", "diseño", "revista", "creativo"],
