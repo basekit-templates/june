@@ -3,11 +3,13 @@
 	"thumbnail":"june.png",
 	"screenshot":"june.png",
 	"templateType":"standard",
+    "pageTypes": ["default", "home"],
     "tags": {
     "en": ["minimal", "clean", "photography", "modern", "colorful", "colourful", "independent", "art", "portfolio", "flexible", "studio", "open", "simple", "designer", "serif", "design", "magazine", "creative"],
     "es": ["minimalista", "limpio", "fotografico", "moderno", "colorido", "independiente", "arte", "portafolio", "flexible", "estudio", "abierto", "simple", "diseñador", "serif", "diseño", "revista", "creativo"],
     "br": ["minimalista", "limpo", "fotografia", "moderno", "colorido", "independente", "arte", "portfolio", "flexível", "estúdio", "aberto", "simples", "designer", "serif", "design", "revista", "criativo"]
     },
+    "images":["images/feature-bg.jpg"],
 	"colorSwatches":
     {
         "Swatch 1": {
