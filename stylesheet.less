@@ -115,7 +115,6 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 
 .companyheader {
     display: block;
-    float: left;
     padding: 0;
     width: 25%;
 }
@@ -124,7 +123,6 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 
 .widget.companyname {
   display: block;
-  float: left;
   border: 3px solid @color-swatch3;
   padding: 10px 8px 8px;
   z-index: 99999;
@@ -142,7 +140,13 @@ body.edit .widget.navigation, body.edit .widget.extendednavigation {
 .widget.logo {
   display: block;
   margin-right: 10px;
-  float: left;
+}
+
+.widget {
+    &.logo, &.companyname {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }
 
 /* ===============================
