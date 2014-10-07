@@ -696,58 +696,32 @@ hr.line.align-right {
    TWITTER FULL
    =============================== */
 
-.widget.twitter {
-}
-
-.widget.twitter a {
-   font-family: @font-swatch5-font-family;
-   color: @font-swatch7-color;
-   font-size:@font-swatch5-font-size;
-   text-decoration: none;
-}
-
-.widget.twitter a:hover {
-    text-decoration: underline;
-}
-
-.widget.twitter ul {
-    padding: 20px 0;
-    margin: 0;
-}
-
-.widget.twitter ul li {
-    border-bottom: none;
-    list-style: none;
+.widget.twitter ul li a {
+    color: @color-swatch3;
     font-family: @font-swatch5-font-family;
     font-size: @font-swatch5-font-size;
-    color: @font-swatch5-color;
-    padding: 30px 0;
-    border-bottom: 1px solid #ebebeb;
+    line-height: @font-swatch5-line-height;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
-.widget.twitter ul li:first-child {
-    border-top: 1px solid #ebebeb;
+ul.twitter {
+    .twitter-profile-pic {
+        margin-right: 10px;
+        margin-top: 2px;
+        a img {
+            width: 48px;
+        }
+    }
+    .twitter-content {
+        padding-left: 68px;
+        p {
+            padding-bottom: 0;
+        }
+    }
 }
-
-.widget.twitter ul li:last-child {
-    padding-bottom: 30px;
-}
-
-.widget.twitter .twitter-profile-pic {
-    float: left;
-    margin-right: 20px;
-}
-
-.widget.twitter .twitter-content span.bk-full-name {
-    font-family: @font-swatch5-font-family;
-    color: @color-swatch3;
-    line-height:60px;
-}
-
-.widget.twitter .twitter-content p {
-    padding: 0;
-}
-
 
 /* ===============================
    CONTACT FORM WIDGET
