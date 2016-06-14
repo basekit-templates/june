@@ -1,7 +1,7 @@
 {
 	"name":"June",
 	"thumbnail":"june.png",
-	"screenshot":"june.png",
+	"screenshot":"june-screenshot.jpg",
 	"templateType":"standard",
     "pageTypes":["home"],
     "tags": {
