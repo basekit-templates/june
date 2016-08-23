@@ -153,6 +153,7 @@ header.bk-header {
     &.logo, &.companyname {
         display: inline-block;
         vertical-align: middle;
+         z-index: 9999;
     }
 }
 
@@ -227,7 +228,7 @@ footer h4 {
 
 .widget.extendednavigation {
     position: relative;
-    margin: 16px 0 0;
+    margin: 16px 0;
     float: right;
     display: inline-block;
     vertical-align: middle;
@@ -2194,9 +2195,11 @@ select::-ms-expand {
 
 @media only screen and (max-width: 768px) {
     header.bk-header {
-        margin: 30px 0 0;
-        border-bottom: 0;
-        padding:0;
+      position: relative;
+      margin: 0;
+      border-bottom: 0;
+      padding: 10px 0;
+      min-height: 70px;
     }
 
     .widget.companyheader {
@@ -2225,9 +2228,15 @@ select::-ms-expand {
     .widget.extendednavigation {
         display: block;
         width: 100%;
+        margin: 0;
         float: none;
-        top:20px;
+        top: 0;
     }
+
+.extendednavigation ul,
+.extendednavigation ul.open {
+    margin-top: 50px;
+}
 
  .widget .extendednavigation ul {
     width: 100%;
@@ -2313,7 +2322,7 @@ select::-ms-expand {
 }
 
 .widget.extendednavigation a.pull {
-  top: 20px;
+  top: 17px;
 }
 
 
