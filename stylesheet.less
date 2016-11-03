@@ -724,25 +724,33 @@ ul.twitter {
     }
 }
 
-/* ===============================
-   CONTACT FORM WIDGET
-   =============================== */
+/* ==============================
+   CONTACT FORM AND ADVANCED FORM
+   ============================== */
 
-.widget.contactform form {
+.widget.contactform form,
+.advancedcontactform form {
     display: block;
     padding: 20px;
     margin-bottom: 20px;
     background-color: @color-swatch2;
 }
 
-.widget.contactform fieldset {
+.widget.contactform fieldset,
+.advancedcontactform fieldset {
     border: none;
     padding: 0;
 }
 
-.widget.contactform fieldset label {
+.widget.contactform fieldset label,
+.advancedcontactform .form-group>label {
     width: 100%;
     float: left;
+  }
+
+.widget.contactform fieldset label,
+.advancedcontactform .form-group>label,
+.advancedcontactform .option-list .option-item .label {
     font-family:@font-swatch5-font-family;
     font-size:@font-swatch5-font-size;
     font-weight:@font-swatch5-font-weight;
@@ -751,7 +759,10 @@ ul.twitter {
     letter-spacing: @font-swatch5-letter-spacing;
 }
 
-.widget.contactform fieldset input {
+.widget.contactform fieldset input,
+.advancedcontactform form input[type=email], 
+.advancedcontactform form input[type=text],
+.advancedcontactform form select {
     height: 40px;
     width: 100%;
     border: none;
@@ -765,12 +776,14 @@ ul.twitter {
     padding: 0;
 }
 
-.widget.contactform fieldset input:focus {
+.widget.contactform fieldset input:focus,
+.advancedcontactform form input:focus {
     outline: none;
     box-shadow: 0 0 5px @color-swatch5;
 }
 
-.widget.contactform fieldset textarea {
+.widget.contactform fieldset textarea,
+.advancedcontactform fieldset textarea {
     height: 100px;
     width: 100%;
     border: none;
@@ -786,12 +799,14 @@ ul.twitter {
     padding: 0;
 }
 
-.widget.contactform fieldset textarea:focus {
+.widget.contactform fieldset textarea:focus,
+.advancedcontactform fieldset textarea:focus {
     outline: none;
     box-shadow: 0 0 5px @color-swatch5;
 }
 
-.widget.contactform fieldset button.btn {
+.widget.contactform fieldset button.btn,
+.advancedcontactform fieldset button {
     padding: 10px 30px 8px 10px;
     background-image: image('/images/button-white-arrow.svg');
     background-size: 31px 8px;
@@ -814,6 +829,10 @@ ul.twitter {
   background-image: image('/images/button-black-arrow.svg');
   background-size: 31px 8px;
   cursor: pointer;
+}
+
+.advancedcontactform .option-list {
+  padding: 1em 0;
 }
 
 /* ===============================
