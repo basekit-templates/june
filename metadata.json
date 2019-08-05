@@ -1,5 +1,6 @@
 {
 	"name":"June",
+	"versionTenCompatible": 1,
 	"thumbnail":"june.png",
 	"screenshot":"june-screenshot.jpg",
 	"templateType":"standard",
